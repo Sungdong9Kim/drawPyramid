@@ -9,6 +9,12 @@ public class Main {
         printer.printPyramid(5);
         System.out.println("----------");
         printer.printPyramid(10);	
+        
+        printer.printFloydsPyramid(3);
+        System.out.println("----------");
+        printer.printFloydsPyramid(5);
+        System.out.println("----------");
+        printer.printFloydsPyramid(15);
 		
 		
 	}
